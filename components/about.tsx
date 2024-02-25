@@ -11,7 +11,7 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="text-clip mb-28  text-center leading-8 sm:mb-40 scroll-mt-28 max-w-[45rem]"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
@@ -19,30 +19,26 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        Embarking on a 12-year journey in product and growth, I've melded a deep
+        passion for product excellence with a knack for driving revenue and
+        leading teams. Starting with a strong foundation in International
+        Business Economics, I've honed my skills in software engineering and
+        coaching, crafting a unique approach to product management.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        My expertise spans from strategic growth to hands-on programming,
+        bridging technical and business worlds. I thrive on challenges,
+        leveraging a broad skill set in technologies like HTML, CSS, and
+        JavaScript, to React and Node.js. This blend of leadership, tech savvy,
+        and growth strategies is what I bring to the table.
+      </p>
+
+      <p>
+        Outside work, I'm committed to personal development, exploring new tech,
+        and engaging in cultural pursuits. As I look forward to contributing to
+        the tech industry, I'm eager to leverage my unique blend of skills and
+        experiences for impactful projects.
       </p>
     </motion.section>
   );
