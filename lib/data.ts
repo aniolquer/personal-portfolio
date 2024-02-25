@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import growlia from "@/public/growlia.png";
 
 export const links = [
   {
@@ -33,52 +34,38 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
-  {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
-] as const;
-
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Growlia",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    tags: ["React", "TypeScript", "Firebase", "Tailwind", "Prisma"],
+    imageUrl: growlia,
+  },
+  {
+    title: "Code Racer",
+    description:
+      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+    tags: ["React", "Next.js", "Firebase", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Lunch Roulette",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "AI Marketplace",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "Wheel of Life",
+    description: "Track the progress of your life with this app",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },
@@ -92,16 +79,55 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
+  "Express.js",
+  "Nest.js",
   "Git",
+  "GitHub",
   "Tailwind",
+  "WebSockets",
   "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
+  "Firebase",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Shadcn",
+  "Bootstrap",
+  "Heroku",
+  "Docker",
+  "Postman",
+  "Algorithms",
+  "Jest",
+] as const;
+
+export const experiencesData = [
+  {
+    title: "Graduated Business",
+    location: "UPF (Barcelona) & Boston College (USA)",
+    description:
+      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2009 - 2013",
+  },
+  {
+    title: "Growth Director",
+    location: "Talent Clue (Barcelona)",
+    description:
+      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2016 - 2018",
+  },
+  {
+    title: "Co-Founder & Head of Product",
+    location: "Growlia (Barcelona)",
+    description:
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(FaReact),
+    date: "2018 - 2023",
+  },
+  {
+    title: "Senior Product Manager ",
+    location: "Multiple Projects (Freelance)",
+    description:
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(FaReact),
+    date: "2023 - Now",
+  },
 ] as const;
