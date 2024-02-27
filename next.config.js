@@ -8,14 +8,9 @@ const nextConfig = {
       },
     ],
   },
-  output: "export",
-  // experimental: {
-  //   serverActions: true,
-  // },
-  // Add the environment check and repository name here
-  assetPrefix:
-    process.env.NODE_ENV === "production" ? "/aniolquer.github.io" : "",
-  basePath: process.env.NODE_ENV === "production" ? "/aniolquer.github.io" : "",
+  experimental: {
+    serverActions: true,
+  },
 };
 
 module.exports = nextConfig;
