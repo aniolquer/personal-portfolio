@@ -5,8 +5,11 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 import growlia from "@/public/growlia.png";
+import wheelOfLife from "@/public/wheel-of-life.png";
+import teambuildingPicture from "@/public/ai-teambuilding-marketplace.png";
+import { AiOutlineMobile } from "react-icons/ai";
+
 // #endregion
 
 export const links = [
@@ -40,36 +43,37 @@ export const projectsData = [
   {
     title: "Growlia",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "TypeScript", "Firebase", "Tailwind", "Prisma"],
+      "Saas-enabled Marketplace for coaching services. I was in charge of product. The platform featured video calls, chat, and scheduling.",
+    tags: ["React", "TypeScript", "Firebase", "Tailwind", "Timekit", "ZoomSDK"],
     imageUrl: growlia,
   },
   {
     title: "Code Racer",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "Firebase", "Tailwind", "Prisma"],
+      "Plaforms focused on coders featuring the option to compete in real-time agains each other. Using websockets and analytics.",
+    tags: ["React", "Next.js", "Tailwind", "Monaco Editor ", "MongoDB"],
     imageUrl: corpcommentImg,
   },
   {
     title: "Lunch Roulette",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "App to help users connect and get to know each other better. It uses a random algorithm to match people.",
+    tags: ["React", "TypeScript", "Vite.js", "Tailwind", "PostgreSQL"],
     imageUrl: rmtdevImg,
   },
   {
     title: "AI Marketplace",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Marketplace offering teambuilding activities powered by and AI chatbot connected to OpenAI",
+    tags: ["React", "Next.js", "OpenAI API", "Notion Databases", "Framer"],
+    imageUrl: teambuildingPicture,
   },
   {
     title: "Wheel of Life",
-    description: "Track the progress of your life with this app",
+    description:
+      "Track the progress of your life with this app. A simple and effective way to keep track of you feelings and your life goals.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: wheelOfLife,
   },
 ] as const;
 
@@ -104,15 +108,23 @@ export const experiencesData = [
     title: "Graduated Business",
     location: "UPF (Barcelona) & Boston College (USA)",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Graduated from UPF with a degree in International Business. I also studied at Boston College in the United States.",
     icon: React.createElement(LuGraduationCap),
     date: "2009 - 2013",
+  },
+  {
+    title: "Co-founder & Product Manager",
+    location: "Walipa (Barcelona)",
+    description:
+      "Lead the product initiative at a startup that focused on providing a mobile-first solution for the hospitality industry.",
+    icon: React.createElement(AiOutlineMobile),
+    date: "2013 - 2015",
   },
   {
     title: "Growth Director",
     location: "Talent Clue (Barcelona)",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Managed a team of sales and customer success professionals. Worked closely with the Product team to improve the product.",
     icon: React.createElement(CgWorkAlt),
     date: "2016 - 2018",
   },
@@ -120,7 +132,7 @@ export const experiencesData = [
     title: "Co-Founder & Head of Product",
     location: "Growlia (Barcelona)",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Speaheded the product function at the 1st B2B coaching provider in Spain while also working with GTM teams to drive growth.",
     icon: React.createElement(FaReact),
     date: "2018 - 2023",
   },
@@ -128,7 +140,7 @@ export const experiencesData = [
     title: "Senior Product Manager ",
     location: "Multiple Projects (Freelance)",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Worked with multiple startups and companies to help them build and launch their products. I also advised them on product strategy.",
     icon: React.createElement(FaReact),
     date: "2023 - Now",
   },

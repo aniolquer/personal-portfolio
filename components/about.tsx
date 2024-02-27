@@ -19,26 +19,24 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Embarking on a 12-year journey in product and growth, I've melded a deep
-        passion for product excellence with a knack for driving revenue and
-        leading teams. Starting with a strong foundation in International
-        Business Economics, I've honed my skills in software engineering and
-        coaching, crafting a unique approach to product management.
+        With over 12 years of diving deep into the world of products and growth,
+        my passion lies in crafting solutions that truly make a difference. To
+        me, this journey it's about bringing ideas to life that positively
+        affect both users and businesses. My expertise is a mix of creativity,
+        strategy, and the drive to see projects from a spark of inspiration to
+        real-world impact. I'm all about connecting dots in new ways, leading
+        teams to explore uncharted territories, and nurturing ideas that
+        resonate with people's needs and aspirations.
       </p>
 
       <p>
-        My expertise spans from strategic growth to hands-on programming,
-        bridging technical and business worlds. I thrive on challenges,
-        leveraging a broad skill set in technologies like HTML, CSS, and
-        JavaScript, to React and Node.js. This blend of leadership, tech savvy,
-        and growth strategies is what I bring to the table.
-      </p>
-
-      <p>
-        Outside work, I'm committed to personal development, exploring new tech,
-        and engaging in cultural pursuits. As I look forward to contributing to
-        the tech industry, I'm eager to leverage my unique blend of skills and
-        experiences for impactful projects.
+        My background has equipped me with the tools to understand the technical
+        side of product creation and the side of how to grow a product in
+        competitive markets. This unique blend allows me to work closely with
+        diverse teams, guiding them towards a common vision. I thrive on
+        challenge and innovation, always eager to learn and adapt. My goal is to
+        continue making meaningful contributions to the tech world, creating
+        products that don't just exist but truly matter.
       </p>
     </motion.section>
   );
