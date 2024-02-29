@@ -4,7 +4,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import lunchRoulette from "@/public/lunchRoulette.png";
 import growlia from "@/public/growlia.png";
 import wheelOfLife from "@/public/wheel-of-life.png";
 import teambuildingPicture from "@/public/ai-teambuilding-marketplace.png";
@@ -12,6 +12,9 @@ import { AiOutlineMobile } from "react-icons/ai";
 import { BsGraphUp } from "react-icons/bs";
 import { BiRuler } from "react-icons/bi";
 import { RiSuitcaseLine, RiComputerLine } from "react-icons/ri";
+import walipa from "@/public/walipa.png";
+import geniusAI from "@/public/geniusAI.png";
+import companionAI from "@/public/companionAI.png";
 
 // #endregion
 
@@ -58,11 +61,11 @@ export const projectsData = [
     imageUrl: corpcommentImg,
   },
   {
-    title: "Lunch Roulette",
+    title: "Genius AI ",
     description:
-      "App to help users connect and get to know each other better. It uses a random algorithm to match people.",
-    tags: ["React", "TypeScript", "Vite.js", "Tailwind", "PostgreSQL"],
-    imageUrl: rmtdevImg,
+      "Plaforms focused on providing AI services to the users for image generation, text generation and other utilities.",
+    tags: ["OpenAI", "Hostpot.ai", "React", "Tailwind", "Typescript "],
+    imageUrl: geniusAI,
   },
   {
     title: "AI Marketplace",
@@ -72,11 +75,32 @@ export const projectsData = [
     imageUrl: teambuildingPicture,
   },
   {
+    title: "Walipa",
+    description:
+      "The 1st all-in-one loyalty app for the hospitality sector, with the options to create campaigns to increase customer retention.",
+    tags: ["React Native", "SQL", "PHP", "Laravel"],
+    imageUrl: walipa,
+  },
+  {
+    title: "Lunch Roulette",
+    description:
+      "App to help users connect and get to know each other better. It uses a random algorithm to match people.",
+    tags: ["React", "TypeScript", "Vite.js", "Tailwind", "PostgreSQL"],
+    imageUrl: lunchRoulette,
+  },
+  {
     title: "Wheel of Life",
     description:
       "Track the progress of your life with this app. A simple and effective way to keep track of you feelings and your life goals.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wheelOfLife,
+  },
+  {
+    title: "Mentor.ai",
+    description:
+      "Bring to life your idols and speak to them in real time. You can ask advice and get feedback from them.",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Stripe"],
+    imageUrl: companionAI,
   },
 ] as const;
 
