@@ -9,6 +9,9 @@ import growlia from "@/public/growlia.png";
 import wheelOfLife from "@/public/wheel-of-life.png";
 import teambuildingPicture from "@/public/ai-teambuilding-marketplace.png";
 import { AiOutlineMobile } from "react-icons/ai";
+import { BsGraphUp } from "react-icons/bs";
+import { BiRuler } from "react-icons/bi";
+import { RiSuitcaseLine, RiComputerLine } from "react-icons/ri";
 
 // #endregion
 
@@ -78,6 +81,18 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "Agile",
+  "Scrum",
+  "Artificial Intelligence",
+  "User Research",
+  "UX Design",
+  "A/B Testing",
+  "Design Systems",
+  "Wireframes Design",
+  "CI/CD Pipelines",
+  "Roadmapping",
+  "User Stories",
+  "Design Thinking",
   "HTML",
   "CSS",
   "JavaScript",
@@ -88,19 +103,9 @@ export const skillsData = [
   "Express.js",
   "Nest.js",
   "Git",
-  "GitHub",
   "Tailwind",
-  "WebSockets",
-  "Prisma",
-  "Firebase",
   "PostgreSQL",
-  "Shadcn",
-  "Bootstrap",
-  "Heroku",
   "Docker",
-  "Postman",
-  "Algorithms",
-  "Jest",
 ] as const;
 
 export const experiencesData = [
@@ -118,6 +123,14 @@ export const experiencesData = [
     description:
       "Lead the product initiative at a startup that focused on providing a mobile-first solution for the hospitality industry.",
     icon: React.createElement(AiOutlineMobile),
+    date: "2012 - 2014",
+  },
+  {
+    title: "Marketing & Sales Director",
+    location: "InboundCycle (Barcelona)",
+    description:
+      "Lead the growth function of the company. I defined the customer requirements for the product team",
+    icon: React.createElement(BsGraphUp),
     date: "2013 - 2015",
   },
   {
@@ -125,7 +138,7 @@ export const experiencesData = [
     location: "Talent Clue (Barcelona)",
     description:
       "Managed a team of sales and customer success professionals. Worked closely with the Product team to improve the product.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(RiSuitcaseLine),
     date: "2016 - 2018",
   },
   {
@@ -133,7 +146,7 @@ export const experiencesData = [
     location: "Growlia (Barcelona)",
     description:
       "Speaheded the product function at the 1st B2B coaching provider in Spain while also working with GTM teams to drive growth.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(BiRuler),
     date: "2018 - 2023",
   },
   {
@@ -141,7 +154,7 @@ export const experiencesData = [
     location: "Multiple Projects (Freelance)",
     description:
       "Worked with multiple startups and companies to help them build and launch their products. I also advised them on product strategy.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(RiComputerLine),
     date: "2023 - Now",
   },
 ] as const;
