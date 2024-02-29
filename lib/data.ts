@@ -12,6 +12,7 @@ import { AiOutlineMobile } from "react-icons/ai";
 import { BsGraphUp } from "react-icons/bs";
 import { BiRuler } from "react-icons/bi";
 import { RiSuitcaseLine, RiComputerLine } from "react-icons/ri";
+import walipa from "@/public/walipa.png";
 
 // #endregion
 
@@ -70,6 +71,13 @@ export const projectsData = [
       "Marketplace offering teambuilding activities powered by and AI chatbot connected to OpenAI",
     tags: ["React", "Next.js", "OpenAI API", "Notion Databases", "Framer"],
     imageUrl: teambuildingPicture,
+  },
+  {
+    title: "Walipa",
+    description:
+      "The 1st all-in-one loyalty app for the hospitality sector, with the options to create campaigns to increase customer retention.",
+    tags: ["React Native", "SQL", "PHP", "Laravel"],
+    imageUrl: walipa,
   },
   {
     title: "Wheel of Life",
